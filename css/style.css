@@ -37,6 +37,7 @@ main {
     width: 150px;
     height: 150px;
     background-color: #1389b2;
+    font-size: 22px;
 }
 .fizz {
     background-color: #0bd6a1;
