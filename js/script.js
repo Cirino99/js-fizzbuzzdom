@@ -4,8 +4,8 @@
 */
 
 const mybox = document.getElementById('mainbox');
-let element = `<div class="box">1</div>`;
-for(let i=2; i<101; i++){
+let element = '';
+for(let i=1; i<101; i++){
     if(i%3===0){
         if(i%5===0){
             element += `<div class="box fizzbuzz">FizzBuzz</div>`;
